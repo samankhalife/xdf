@@ -18,7 +18,7 @@
 ![alt text](images/X-defnder.png "Network Topology")
 
 > [!CAUTION]
-> This project is still in very early stages of development. Use at your own risk. We are looking for contributors to help improve and expand the project.
+> This project is still in very early stages of development.
 
 # Why??
 As shown in the Packet Flow in [Packet flow in Netfilter and General Networking](https://upload.wikimedia.org/wikipedia/commons/3/37/Netfilter-packet-flow.svg), XDP operates at the earliest point where packets are handled by the network card. This allows X-Defender to intercept and process packets at this initial stage. By implementing DDoS mitigation at this level, you can protect your system efficiently and cost-effectively while minimizing the load on your system. mostly they use xdp for mitigation and for load balancing like in [cloud flare](https://youtu.be/ZQsbYmdMjnw?t=2685) or many other providers and even [Meta](https://about.meta.com/).
